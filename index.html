@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja Rani | Frontend Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#000;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1e40af;
+}
+</style>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#4e73df,#1cc88a);
+    color:#fff;
+}
+
+/* NAVBAR */
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+    padding:15px 0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+
+/* SECTION */
+section{
+    padding:100px 10%;
+}
+
+.glass{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+/* SKILLS */
+.skills span{
+    display:inline-block;
+    padding:8px 15px;
+    margin:6px;
+    border-radius:30px;
+    background:rgba(255,255,255,0.2);
+    transition:0.3s;
+}
+
+.skills span:hover{
+    background:#ffd700;
+    color:#000;
+}
+
+/* PROJECT CARDS */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,0.2);
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero h1{
+        font-size:32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="about" class="hero">
+    <div>
+        <h1>Pooja Rani</h1>
+        <h2>I'm a Frontend Developer</h2>
+        <p>Passionate Frontend Developer adept in HTML5, CSS3, and JavaScript ES6, specializing in React JS. Skilled in responsive design and UI/UX principles, I excel in crafting engaging web experiences. Let's collaborate to create impactful digital solutions!</p>
+   
+
+   </div>
+   <div class="glass">
+        <h2>Languages & Libraries</h2><br>
+        <div class="skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Bootstrap</span>
+            <span>SCSS</span>
+            <span>Git</span>
+            <span>REST APIs</span>
+            <span>Jest</span>
+            <span>Figma</span>
+        </div>
+		</div>
+		
+		
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <div class="glass">
+        <h2>Experience</h2><br>
+        <h3>Frontend Developer - Radical Minds</h3>
+        <p>Aug 2022 – Dec 2025 | Gurugram</p><br>
+       <p>Working as a Frontend Developer, building dynamic and reusable UI components while improving existing interfaces for better performance, accessibility, and design consistency. Responsible for maintaining the codebase, implementing responsive layouts, and updating UI features based on evolving project requirements. Ensured smooth version control and deployments by managing updates directly through Git with clean, error-free commits.</p>
+        <br>
+		<div class="skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Bootstrap</span>
+            <span>SCSS</span>
+            <span>Git</span>
+            <span>REST APIs</span>
+            <span>Jest</span>
+            <span>Figma</span>
+        </div>
+		
+		<br>
+        <h3>Frontend Developer - onTime Infotech</h3>
+        <p>Apr 2018 – Jun 2022 | Gurugram</p>
+        <br>
+		<p>Developing high-quality frontend applications by converting Adobe Photoshop and Figma designs into responsive user interfaces. Building scalable Reactjs projects and optimizing performance. Mentoring a trainee, providing guidance on best coding practices, and improving team collaboration.
+
+</p><br>
+<h2>Key Projects:</h2><br>
+<ul>
+<li>Apphospitalist: Led the frontend development of dynamic, SEO-friendly web applications using Laravel Blade, HTML, CSS, and JavaScript, ensuring optimized performance and responsive UI.</li>
+<li>Bridging Peoples: Led the frontend development using Next.js, implementing dynamic sliders, interactive UI components, and responsive layouts. Enhanced SEO, performance, and user experience through optimized HTML, CSS, and JavaScript.</li>
+<li>Accelys Survey: Designed and developed the complete frontend UI for a dynamic survey generator platform using Laravel Blade, HTML, CSS, and JavaScript. Built custom components, ensured SEO-friendly structure, responsive design, and optimized performance for smooth user interaction.</li>
+<li>Next.js Application Development: Built dynamic, SEO-friendly applications using Next.js with optimized performance and API integrations.</li>
+<li>Figma to Frontend Implementation: Converted complex UI designs from Figma into fully responsive and pixel-perfect web applications.</li>
+<li>Trainee Mentorship: Guided a trainee in frontend development, improving code quality and best practices.</li>
+</ul>
+<br>
+<div class="skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Bootstrap</span>
+            <span>SCSS</span>
+            <span>Git</span>
+            <span>REST APIs</span>
+            <span>Jest</span>
+            <span>Figma</span>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="glass">
+        <h2>Projects</h2><br><br>
+        <div class="projects">
+	
+            <div class="card">
+                	<div class="card">
+                <img src="images/p1.png" width="100%" height="250">
+				  <h3>Wixi Mart</h3>
+                <p>WixiMart is a modern ecommerce marketplace built to simplify the way people shop online</p>
+				<br>
+				<a href="https://wiximart.com/" target="_blank" class="btn">Learn more</a>
+            </div>
+            </div>
+			
+			 <div class="card">
+                <img src="images/p2.PNG" width="100%" height="250">
+				  <h3>Dsignerstudio</h3>
+                <p>We are a full service creative agency focused on Exhibitions & Interior Designing.</p>
+				<br>
+				<a href="https://www.dsignerstudio.com/" target="_blank" class="btn">Learn more</a>
+
+            </div>
+        </div><br>
+		 <div class="projects">
+	
+            <div class="card">
+                	<div class="card">
+                <img src="images/p3.png" width="100%" height="250">
+				  <h3>DPS Mahendragarh</h3>
+                <p>Delhi Public School, Mahendragarh is under the auspices of Delhi Public School Society, New Delhi.</p>
+				<br>
+				<a href="https://www.dpsmahendragarh.com/" target="_blank" class="btn">Learn more</a>
+            </div>
+            </div>
+			
+			 <div class="card">
+                <img src="images/p4.png" width="100%" height="250">
+				  <h3>Singaporeexpo</h3>
+                <p>Situated within the buzzing, multicultural hub of Singapore, Singapore EXPO is the country’s largest purpose-built meetings, incentives, conventions and exhibitions (MICE) venue</p>
+				<br>
+				<a href="https://www.singaporeexpo.com.sg/" target="_blank" class="btn">Learn more</a>
+
+            </div>
+        </div><br>
+		 <div class="projects">
+	
+            <div class="card">
+                	<div class="card">
+                <img src="images/p6.png" width="100%" height="250">
+				  <h3>Radicalminds</h3>
+                <p>Radical Minds is a leading transformational outsourcing (BPO) company. </p>
+				<br>
+				<a href="https://www.radicalminds.in/" target="_blank" class="btn">Learn more</a>
+            </div>
+            </div>
+			
+			 <div class="card">
+                <img src="images/p7.png" width="100%" height="250">
+				  <h3>Centralpark</h3>
+                <p>Focused on providing a life extraordinaire, Central Park strives towards delivering an elevated experience</p>
+				<br>
+				<a href="https://www.centralpark.in/" target="_blank" class="btn">Learn more</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="glass">
+        <h2>Contact Us</h2>
+        <p>Email: 20pooja.rani20@gmail.com</p>
+        <p>Phone: +91-9717618096, 9911330563</p>
+        <p>Location: Noida, India</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Pooja Rani | Frontend Developer
+</footer>
+
+</body>
+</html>
